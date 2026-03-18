@@ -155,12 +155,8 @@
             <div class="h-[2px] ${getTopBorder(issue.status)}"></div>
 
             <div class="p-3">
-              <div class="flex items-center justify-between gap-2">
-                <div class="flex items-center gap-1.5">
-                  <span class="w-2 h-2 rounded-full ${getStatusDot(issue.status)}"></span>
-                  <span class="text-[9px] text-slate-400 capitalize">${issue.status || "N/A"}</span>
-                </div>
-
+              <div class="flex items-center justify-end gap-2">
+                
                 ${getPriorityBadge(issue.priority)}
               </div>
 
